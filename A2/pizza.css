@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lss{
+    display: inline-block;
+    padding: 15px 5px; 
+    margin-bottom: 10px; 
+    
+}
+
+
+.lss {
+    color: white;
+    text-decoration: none; 
+    position: relative;
+    
+  }
+
+  .linksettings ul{
+    margin-left: 800px;
+  }
+
+
+
+    .image-container {
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; 
+    }
+    .image-container img {
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 5px;
+        transition: transform 1.5s ease; 
+    }
+   
+    .image-container img:hover {
+        transform: rotate(360deg); 
+    }
+  
+    .image-container p {
+        text-align: center;
+        margin-top: 0; 
+    }
+
+
+
+
+
+    /* free dilivery,,, Customization opt....*/
+    .container {
+        display: inline-block;
+    }
+    
+    .p1 {
+        border-radius: 25px;
+        box-shadow: 0px 4px 8px rgba(63, 33, 33, 0.1);
+        background-color: whitesmoke;
+        height: 100px;
+        padding: 20px;
+        border-radius: 8px;
+        width: 1110px;
+        margin-left: 45px;
+        transition: transform 0.3s ease; 
+        
+    }
+    .p1 p{
+        margin-left: 40px;
+    }
+    .container:hover .p1 {
+        transform: scale(1.1); 
+    }
+
+
+
+     

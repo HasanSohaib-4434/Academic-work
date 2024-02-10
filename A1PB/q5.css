@@ -1,0 +1,38 @@
+.my{
+    margin:0px !important;padding:0px !important; 
+    background-color:  darkgrey;
+    height: 200px;
+}
+.my h1{
+text-align: center;
+}
+
+.my h3{
+    text-align: center;
+}
+.my img{
+    margin-left: 800px;
+    height: 150px;
+    margin-bottom: 1500px;
+}
+
+.container {
+    display: inline-block;
+}
+
+.p1 {
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px rgba(63, 33, 33, 0.1);
+    background-color: whitesmoke;
+    height: 100px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease; 
+}
+
+.container:hover .p1 {
+    transform: scale(1.1); 
+}
